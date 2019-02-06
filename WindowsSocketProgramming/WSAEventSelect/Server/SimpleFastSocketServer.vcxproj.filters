@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NetworkLib">
+      <UniqueIdentifier>{0f3bc54e-d7ad-4b60-9d7a-78472f204899}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Packet.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\include\TcpSocket.h">
+      <Filter>NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleServer.h" />
+  </ItemGroup>
+</Project>
