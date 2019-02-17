@@ -1,0 +1,4 @@
+Microsoft.AspNet.WebApi.Core
+CloudStructures
+MongoDB.Driver
+Z.ExtensionMethods
