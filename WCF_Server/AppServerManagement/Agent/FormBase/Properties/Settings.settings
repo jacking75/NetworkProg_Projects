@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FormBase.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://127.0.0.1:19090</Value>
+    </Setting>
+    <Setting Name="AppServerDirFullPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\SVN\CTeamProject\trunk\Servers\Tools\AppServerManagement\Bin\ChatServer</Value>
+    </Setting>
+    <Setting Name="MyIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.01</Value>
+    </Setting>
+    <Setting Name="IPCMyPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23981</Value>
+    </Setting>
+    <Setting Name="IPCOtherPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23982</Value>
+    </Setting>
+    <Setting Name="IPCMaxPacketSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="IPCMaxPacketBufferSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">400</Value>
+    </Setting>
+    <Setting Name="AppServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ChatServer_1</Value>
+    </Setting>
+    <Setting Name="AppServerExeName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ChatServerForm.exe</Value>
+    </Setting>
+    <Setting Name="IPC_USE_HTTP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

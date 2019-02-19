@@ -1,0 +1,49 @@
+﻿<#	
+	ApiDescriptionList.Add(new APIDescription{ApiName="RequestCreateAccountDev", 
+									ReqPacketName="REQ_CREATE_ACCOUNT_DEV_DATA",
+									ResPacketName="RES_CREATE_ACCOUNT_DEV_DATA", 
+									FunctionName="Request.LoginServer.CreateAccountDev.Process", 
+									IsAuthCompleted=false,
+									IsLoadSmallUserBasicGameData = false,
+									IsCheckBusinessSimulationing = false, 
+									Comments=""});
+	
+
+	ApiDescriptionList.Add(new APIDescription{ApiName="RequestLoadUserData", 
+									ReqPacketName="REQ_USER_DATA",
+									ResPacketName="RES_USER_DATA", 
+									FunctionName="Request.LoadUserData.Process", 
+									IsAuthCompleted=true, 
+									IsLoadSmallUserBasicGameData = false,
+									IsCheckBusinessSimulationing = false,
+									Comments="유저의 기본 게임 데이터 로딩 요청"});
+									
+	ApiDescriptionList.Add(new APIDescription{ ApiName="RequestWorldExtension", 
+									ReqPacketName="REQ_WORLD_EXTENSION",
+									ResPacketName="RES_WORLD_EXTENSION", 
+									FunctionName="Request.WorldExtension.Process", 
+									IsAuthCompleted=true, 
+									IsLoadSmallUserBasicGameData = true,
+									IsCheckBusinessSimulationing = true,
+									Comments="월드 확장 요청"});
+
+#>
+	
+
+<#+
+	
+	class APIDescription
+	{
+		public string ApiName; 
+		public string ReqPacketName; // 요청 패킷 이름
+		public string ResPacketName; // 답변 패킷 이름
+		public string FunctionName; // 패킷 처리 함수 이름
+		public bool IsAuthCompleted; // true: 인증이 완료되어야 한다.
+		public bool IsLoadSmallUserBasicGameData; // 유저 기본 게임 데이터 로딩 하기
+		public bool IsCheckBusinessSimulationing; //시뮬레이션 중인지(PrepareBusinessSimulation 포함)
+		//public System.Collections.Generic.List<string> OptionList = new System.Collections.Generic.List<string>(); // RemoteIP, 
+		public string Comments;  // 주석
+	}
+
+	System.Collections.Generic.List<APIDescription> ApiDescriptionList = new System.Collections.Generic.List<APIDescription>();
+#>

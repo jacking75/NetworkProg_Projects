@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsoleBase.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:19090</Value>
+    </Setting>
+    <Setting Name="AppServerDirFullPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\SVN\CTeamProject\Tools\AppServerManagement\Bin\AppServer</Value>
+    </Setting>
+    <Setting Name="MyIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.01</Value>
+    </Setting>
+    <Setting Name="IPCMyPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23891</Value>
+    </Setting>
+    <Setting Name="IPCOtherPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">23892</Value>
+    </Setting>
+    <Setting Name="IPCMaxPacketSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2048</Value>
+    </Setting>
+    <Setting Name="IPCMaxPacketBufferSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20480</Value>
+    </Setting>
+    <Setting Name="AppServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">미소스 모바일 게임서버 1</Value>
+    </Setting>
+    <Setting Name="AppServerExeName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ServerAppConsole.exe</Value>
+    </Setting>
+    <Setting Name="IPC_USE_HTTP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

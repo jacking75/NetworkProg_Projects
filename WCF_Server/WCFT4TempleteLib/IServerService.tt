@@ -1,0 +1,35 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ include file="ServerService.tt.include" #>
+
+using System;
+using System.Collections.Generic; 
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+
+using System.Threading.Tasks;
+
+
+namespace WCFGameServerLib
+{
+	[ServiceContract]
+	public interface IServerService
+	{
+<# foreach (var apiDesc in ApiDescriptionList) { #> 
+		[OperationContract]
+		Task<RES_DATA> <#= apiDesc.ApiName #>(REQ_DATA requestData);
+
+
+<# } #>
+
+
+
+
+		[OperationContract] 
+		void RequestHeathCheck();
+		  
+		
+	}
+}
