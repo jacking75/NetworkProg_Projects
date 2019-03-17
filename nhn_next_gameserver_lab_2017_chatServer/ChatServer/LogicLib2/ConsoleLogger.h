@@ -7,7 +7,7 @@
 #pragma warning( disable : 4244 )
 //http://cppconlib.codeplex.com/
 //http://mariusbancila.ro/blog/2013/08/25/cppconlib-a-cpp-library-for-working-with-the-windows-console/
-#include "../../Common/conmanip.h"
+#include "../../Common2/conmanip.h"
 using namespace conmanip;
 #pragma warning( pop )
 

@@ -1,9 +1,9 @@
 #pragma once
 
 #include <memory>
-#include "../../Common/Packet.h"
+#include "../../Common2/Packet.h"
 #include "../ServerNetLib/Define.h"
-#include "../../Common/ErrorCode.h"
+#include "../../Common2/ErrorCode.h"
 
 using ERROR_CODE = NCommon::ERROR_CODE;
 

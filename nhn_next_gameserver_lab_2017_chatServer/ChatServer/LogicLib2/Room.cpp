@@ -2,8 +2,8 @@
 
 #include "../ServerNetLib/ILog.h"
 #include "../ServerNetLib/TcpNetwork.h"
-#include "../../Common/Packet.h"
-#include "../../Common/ErrorCode.h"
+#include "../../Common2/Packet.h"
+#include "../../Common2/ErrorCode.h"
 
 #include "User.h"
 #include "Game.h"

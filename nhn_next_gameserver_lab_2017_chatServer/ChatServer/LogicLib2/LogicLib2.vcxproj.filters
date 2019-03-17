@@ -7,22 +7,22 @@
     <ClInclude Include="UserManager.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="ConsoleLogger.h" />
-    <ClInclude Include="..\..\Common\conmanip.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\Packet.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\ErrorCode.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Common\PacketID.h">
-      <Filter>Common</Filter>
-    </ClInclude>
     <ClInclude Include="ConnectedUserManager.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Lobby.h" />
     <ClInclude Include="LobbyManager.h" />
+    <ClInclude Include="..\..\Common2\conmanip.h">
+      <Filter>Common2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common2\ErrorCode.h">
+      <Filter>Common2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common2\Packet.h">
+      <Filter>Common2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common2\PacketID.h">
+      <Filter>Common2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
@@ -37,7 +37,7 @@
     <ClCompile Include="LobbyManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Common">
+    <Filter Include="Common2">
       <UniqueIdentifier>{18a3af02-6e7b-4382-8391-7123f58a3b93}</UniqueIdentifier>
     </Filter>
   </ItemGroup>

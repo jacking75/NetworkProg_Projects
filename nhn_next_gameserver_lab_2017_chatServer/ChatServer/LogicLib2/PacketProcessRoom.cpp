@@ -1,6 +1,6 @@
-#include "../../Common/Packet.h"
+#include "../../Common2/Packet.h"
+#include "../../Common2/ErrorCode.h"
 #include "../ServerNetLib/TcpNetwork.h"
-#include "../../Common/ErrorCode.h"
 #include "User.h"
 #include "UserManager.h"
 #include "LobbyManager.h"

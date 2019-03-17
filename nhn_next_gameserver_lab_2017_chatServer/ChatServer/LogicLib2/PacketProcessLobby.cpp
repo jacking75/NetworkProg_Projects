@@ -1,6 +1,6 @@
-#include "../../Common/Packet.h"
+#include "../../Common2/Packet.h"
+#include "../../Common2/ErrorCode.h"
 #include "../ServerNetLib/TcpNetwork.h"
-#include "../../Common/ErrorCode.h"
 #include "User.h"
 #include "UserManager.h"
 #include "Lobby.h"
@@ -14,10 +14,6 @@ namespace NLogicLib
 	ERROR_CODE PacketProcess::LobbyEnter(PacketInfo packetInfo)
 	{
 	CHECK_START
-		// 현재 위치 상태는 로그인이 맞나?
-		// 로비에 들어간다.
-		// 기존 로비에 있는 사람에게 새 사람이 들어왔다고 알려준다
-
 		auto reqPkt = (NCommon::PktLobbyEnterReq*)packetInfo.pRefData;
 		NCommon::PktLobbyEnterRes resPkt;
 

@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Common\conmanip.h" />
-    <ClInclude Include="..\..\Common\ErrorCode.h" />
-    <ClInclude Include="..\..\Common\Packet.h" />
-    <ClInclude Include="..\..\Common\PacketID.h" />
+    <ClInclude Include="..\..\Common2\conmanip.h" />
+    <ClInclude Include="..\..\Common2\ErrorCode.h" />
+    <ClInclude Include="..\..\Common2\Packet.h" />
+    <ClInclude Include="..\..\Common2\PacketID.h" />
     <ClInclude Include="ConnectedUserManager.h" />
     <ClInclude Include="ConsoleLogger.h" />
     <ClInclude Include="Game.h" />
